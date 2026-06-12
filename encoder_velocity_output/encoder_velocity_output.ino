@@ -33,7 +33,7 @@ const int32_t COUNTS_PER_REV = 4096;
 // Full-scale velocity in counts/sec. 7000 counts/s ~= 102 RPM at 4x
 // decoding of a 1024 PPR encoder. Set this to your real max so you
 // use the full output range.
-const float MAX_VELOCITY = 8000.0;
+const float MAX_VELOCITY = 4096; // 8000.0;
 
 // How often velocity is computed and the output updated (ms)
 const uint16_t SAMPLE_INTERVAL_MS = 1;
