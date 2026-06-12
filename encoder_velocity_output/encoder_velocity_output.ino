@@ -112,13 +112,13 @@ void loop() {
 
   analogWrite(PIN_OUT, pwm);
 
-  Serial.print("Vel: ");
-  Serial.print(velocitySmoothed, 1);
-  Serial.print(" counts/s  RPM: ");
-  Serial.print(velocitySmoothed * 60.0 / COUNTS_PER_REV, 2);
-  Serial.print("  PWM: ");
-  Serial.print(pwm);
-  Serial.print("  Vout: ");
-  Serial.print(pwm * 5.0 / 255.0, 3);
-  Serial.println(" V");
+  // Serial.print("Vel: ");
+  // Serial.print(velocitySmoothed, 1);
+  // Serial.print(" counts/s  RPM: ");
+  // Serial.print(velocitySmoothed * 60.0 / COUNTS_PER_REV, 2);
+  // Serial.print("  PWM: ");
+  // Serial.print(pwm);
+  // Serial.print("  Vout: ");
+  // Serial.print(pwm * 5.0 / 255.0, 3);
+  // Serial.println(" V");
 }
