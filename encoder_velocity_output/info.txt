@@ -1,0 +1,12 @@
+Arduino Uno
+
+Yumo encoder
+
+RC filter:
+4.7 kOhm resistor
+2.2 microFarad capacitor
+tau = 10.3 ms
+
+31.4 kHz PWM Arduino output
+
+- Malcolm 6/22/2026
